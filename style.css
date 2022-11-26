@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(./img/restaurant-interior\ \(1\).jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}  
+.f{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.f img{
+    width: 450px;
+    height: 250px;
+    padding: 1%;
+}
+.content{
+    
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    }
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    color: rgb(59, 92, 255);
+    
+}    
+.paramain{
+    color:rgb(7, 7, 7); 
+    margin-top:80px;
+    font-size: 25px;
+    font-family: 'Oswald';
+    font-weight: bold;
+    width: 800px;
+    margin-left: 25%;
+    background-color: silver;
+    opacity: 0.8;
+    border-radius: 30px;
+    padding: 10px;
+    border: 2px solid;
+}
+button{
+    width: 200px;
+    background-color: white;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 3px solid #090b0c;
+    background:silver;
+    opacity: 0.8;
+    box-shadow: 50px 50px 50px #0e0e11;
+    color: rgb(255, 255, 255);
+    position: relative;
+    overflow: hidden;
+    }
+span{
+    background: #466482;
+    height: 100%;
+    width: 0px;
+    border-radius: 25px;
+    
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}    
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(9, 8, 8);
+    scale: 20;
+}
+
+.btn {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5% 
+   
+    
+}
+ 
+#btnreg {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-left: 3%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size:20px
+
+}
+#btnlog {
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 8%;
+    font-size: 16px;
+    font-weight: bold;
+    font-size:20px
+}
